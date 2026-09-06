@@ -433,3 +433,17 @@
 .notion-row {
   overflow: visible !important;
 }
+/* 直擊範本底層：強制網站大標題下方的副標題文字絕對置中 */
+.notion-header-text p,
+.notion-header-text div,
+.notion-search-description,
+header p,
+.site-description {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+}
