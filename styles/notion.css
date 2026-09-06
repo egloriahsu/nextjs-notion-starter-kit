@@ -414,20 +414,3 @@
 .notion-full-width {
   padding: 0 !important;
 }
-/* 1. 修正置中狀態下，封面圖與大圖標之間的垂直距離，不讓它過度下掉 */
-.notion-page-has-cover .notion-page-icon-wrapper {
-  margin-top: -60px !important; /* 向上提，貼近封面圖底緣 */
-}
-
-/* 2. 核心修正：在大標題（Page Name）上方加上一塊乾淨的防護牆（安全間距） */
-.notion-title {
-  margin-top: 45px !important; /* 強制把標題往下推 45 像素，絕對與 Icon 分開 */
-  padding-top: 5px !important;
-  display: block !important;
-  clear: both !important;
-}
-
-/* 3. 優化大圖標本身的空間，確保下方不會有殘留的隱形區塊推擠標題 */
-.notion-page-icon-inline {
-  margin-bottom: 15px !important;
-}
