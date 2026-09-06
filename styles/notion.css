@@ -420,3 +420,16 @@
   display: block !important;
   clear: both !important;
 }
+/* 強制所有圖片（含 QR code）保持完整比例，絕對不允許裁剪 */
+.notion-asset-wrapper img, 
+.notion-image-block img {
+  object-fit: contain !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+/* 防止並排圖片時的容器強制切斷邊緣 */
+.notion-row {
+  overflow: visible !important;
+}
