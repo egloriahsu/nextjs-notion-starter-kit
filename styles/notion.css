@@ -403,3 +403,14 @@
 .notion-equation.notion-equation-block {
   align-items: center;
 }
+/* 強制網站開啟全螢幕寬版，防止雙欄裁切 */
+.notion-page {
+  width: 100% !important;
+  max-width: 1200px !important; /* 您可以根據喜好調整，1200px-1400px 最適合雙欄展示 */
+  padding-left: calc(min(16px, 8vw)) !important;
+  padding-right: calc(min(16px, 8vw)) !important;
+}
+
+.notion-full-width {
+  padding: 0 !important;
+}
