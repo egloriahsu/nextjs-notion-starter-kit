@@ -433,3 +433,14 @@
 .notion-row {
   overflow: visible !important;
 }
+/* 將網站副標題（Explore. Experience. Excel.）強制置中，對齊在標題下方 */
+.notion-header .notion-header-text,
+.notion-search-description,
+header p, 
+.site-description {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  width: 100% !important;
+}
