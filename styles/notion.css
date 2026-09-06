@@ -433,14 +433,19 @@
 .notion-row {
   overflow: visible !important;
 }
-/* 將網站副標題（Explore. Experience. Excel.）強制置中，對齊在標題下方 */
-.notion-header .notion-header-text,
+/* 終極加強版：強制網站上所有的副標題、介紹文字、 header 的文字全部置中 */
+header p,
+.notion-header p,
+.site-description,
 .notion-search-description,
-header p, 
-.site-description {
+.notion-header-text,
+[class*="description"],
+[class*="subtitle"] {
   text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
   display: block !important;
-  width: 100% !important;
+  text-align-last: center !important; /* 強制最後一行也置中 */
 }
