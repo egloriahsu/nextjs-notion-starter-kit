@@ -414,27 +414,3 @@
 .notion-full-width {
   padding: 0 !important;
 }
-/* 1. 修正大圖標位置，將其靠左對齊，並縮小至適當尺寸防止突兀 */
-.notion-page-icon-wrapper {
-  margin-left: 0 !important;
-  left: 0 !important;
-  transform: none !important;
-}
-
-.notion-page-icon {
-  width: 70px !important;
-  height: 70px !important;
-  font-size: 70px !important;
-}
-
-/* 2. 幫大標題上方加上足夠的推力留白，確保絕對不被 Icon 擋住 */
-.notion-title {
-  margin-top: 24px !important; 
-  padding-top: 10px !important;
-  clear: both !important;
-}
-
-/* 3. 如果您有設定頂部封面圖（Cover Image），修正圖標與封面圖的間距 */
-.notion-page-has-cover .notion-page-icon-wrapper {
-  margin-top: -45px !important;
-}
