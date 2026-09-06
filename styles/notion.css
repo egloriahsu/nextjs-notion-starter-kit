@@ -433,19 +433,3 @@
 .notion-row {
   overflow: visible !important;
 }
-/* 終極加強版：強制網站上所有的副標題、介紹文字、 header 的文字全部置中 */
-header p,
-.notion-header p,
-.site-description,
-.notion-search-description,
-.notion-header-text,
-[class*="description"],
-[class*="subtitle"] {
-  text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  display: block !important;
-  text-align-last: center !important; /* 強制最後一行也置中 */
-}
