@@ -414,3 +414,22 @@
 .notion-full-width {
   padding: 0 !important;
 }
+/* 1. 修正置中狀態下，封面圖與大圖標之間的垂直與水平距離 */
+.notion-page-has-cover .notion-page-icon-wrapper {
+  margin-top: -60px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 2. 核心修正：在大標題上方加上安全間距，優化空間不推擠標題 */
+.notion-title {
+  margin-top: 45px !important;
+  padding-top: 5px !important;
+  display: block !important;
+  clear: both !important;
+}
+
+/* 3. 優化大圖標空間 */
+.notion-page-icon-inline {
+  margin-bottom: 15px !important;
+}
